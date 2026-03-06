@@ -13,6 +13,12 @@ new_row = {'Name': 'Apululu',
 
 df.loc[len(df.index)] = new_row
 
+new_row = {'Name': 'Nordegunda',
+           'Age': 99,
+           'City': 'Fim do mundo'}
+
+df.loc[len(df.index)] = new_row
+
 data_dir = 'data'
 
 os.makedirs(data_dir, exist_ok=True)
