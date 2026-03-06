@@ -61,7 +61,7 @@ huggingface/
 # 3. Data and Training Artifacts
 # ==========================================
 # Raw and processed data directories
-# data/
+data/
 datasets/
 raw/
 processed/
@@ -120,3 +120,4 @@ ehthumbs_vista.db
 *.msix
 *.msm
 *.msp
+/data
